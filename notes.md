@@ -15,8 +15,8 @@
 ### Basic configuration after SSHing
 - Keeping the default user: `pi`
 - Configuring new password with: `passwd`
-- Configure the timezone etc with `sudo rpi-config`
-- Set a new hostname with `rpi-config` (since we are working with multiple rpi's we want them to be identifiable).
+- Configure the timezone etc with `sudo raspi-config`
+- Set a new hostname with `raspi-config` (since we are working with multiple rpi's we want them to be identifiable).
 ### Setting up `avahi-daemon` to make SSHing easier (from https://elinux.org/RPi_Advanced_Setup)
 - `sudo apt install avahi-daemon` (this is probably unnecessary since its pre-installed on RPi OS)
 - `sudo update-rc.d avahi-daemon defaults`
