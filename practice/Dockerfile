@@ -1,4 +1,4 @@
-FROM ros
+FROM ros:foxy
 
 # install ros package
 RUN apt-get update && apt-get install -y \
