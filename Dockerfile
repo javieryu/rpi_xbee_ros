@@ -11,3 +11,6 @@ RUN pip3 install pylint --upgrade
 
 # install the xbee python library
 RUN pip3 install digi-xbee
+
+# Modify container .bashrc to always source setup.sh
+RUN echo "source /opt/ros/foxy/setup.sh" >> /root/.bashrc

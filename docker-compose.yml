@@ -3,7 +3,7 @@ services:
   ros2-xbee:
     build:
       context: .
-      dockerfile: .devcontainer/Dockerfile
+      dockerfile: Dockerfile
     volumes:
       - .:/workspace
     tty: true
