@@ -1,7 +1,13 @@
 FROM ros:foxy
 
-# install ros package
+# install some utilities
 RUN apt-get update && apt-get install -y \
-      ros-${ROS_DISTRO}-demo-nodes-cpp \
-      ros-${ROS_DISTRO}-demo-nodes-py && \
+      neovim \
+      python3-pip && \
     rm -rf /var/lib/apt/lists/*
+
+# install pylint for vscode development
+RUN pip3 install pylint --upgrade
+
+# install the xbee python library
+RUN pip3 install digi-xbee
