@@ -7,3 +7,4 @@ services:
     volumes:
       - .:/workspace
     tty: true
+    network_mode: "host"
