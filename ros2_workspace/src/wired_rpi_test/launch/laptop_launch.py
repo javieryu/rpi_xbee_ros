@@ -7,6 +7,6 @@ def generate_launch_description():
             package='wired_rpi_test',
             namespace='laptop',
             executable='wired_id_pub',
-            name='wired_test'
+            name='wired_laptop'
         )
     ])
