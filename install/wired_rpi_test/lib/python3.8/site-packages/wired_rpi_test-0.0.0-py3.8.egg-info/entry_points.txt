@@ -1,0 +1,3 @@
+[console_scripts]
+wired_laptop = wired_rpi_test.wired_laptop:main
+

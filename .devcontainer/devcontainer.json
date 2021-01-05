@@ -1,0 +1,21 @@
+{
+    "name": "ROS2-XBEE ENV",
+
+    "dockerComposeFile": "../docker-compose.yml",
+
+    "service": "ros2-xbee",
+
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+
+    "extensions": [
+        "ms-python.python",
+        "vscodevim.vim",
+        "njpwerner.autodocstring"
+    ],
+
+    "workspaceFolder": "/workspace",
+
+    "shutdownAction": "stopCompose"
+}
