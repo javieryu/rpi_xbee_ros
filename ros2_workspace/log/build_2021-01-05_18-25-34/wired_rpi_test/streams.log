@@ -1,0 +1,42 @@
+[0.268s] Invoking command in '/workspace/ros2_workspace/src/wired_rpi_test': PYTHONPATH=/workspace/ros2_workspace/install/wired_rpi_test/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/wired_rpi_test build --build-base /workspace/ros2_workspace/build/wired_rpi_test/build install --prefix /workspace/ros2_workspace/install/wired_rpi_test --record /workspace/ros2_workspace/build/wired_rpi_test/install.log --single-version-externally-managed
+[0.503s] running egg_info
+[0.504s] creating ../../build/wired_rpi_test/wired_rpi_test.egg-info
+[0.504s] writing ../../build/wired_rpi_test/wired_rpi_test.egg-info/PKG-INFO
+[0.504s] writing dependency_links to ../../build/wired_rpi_test/wired_rpi_test.egg-info/dependency_links.txt
+[0.505s] writing entry points to ../../build/wired_rpi_test/wired_rpi_test.egg-info/entry_points.txt
+[0.505s] writing requirements to ../../build/wired_rpi_test/wired_rpi_test.egg-info/requires.txt
+[0.505s] writing top-level names to ../../build/wired_rpi_test/wired_rpi_test.egg-info/top_level.txt
+[0.508s] writing manifest file '../../build/wired_rpi_test/wired_rpi_test.egg-info/SOURCES.txt'
+[0.562s] reading manifest file '../../build/wired_rpi_test/wired_rpi_test.egg-info/SOURCES.txt'
+[0.563s] writing manifest file '../../build/wired_rpi_test/wired_rpi_test.egg-info/SOURCES.txt'
+[0.564s] running build
+[0.564s] running build_py
+[0.564s] creating /workspace/ros2_workspace/build/wired_rpi_test/build
+[0.564s] creating /workspace/ros2_workspace/build/wired_rpi_test/build/lib
+[0.564s] creating /workspace/ros2_workspace/build/wired_rpi_test/build/lib/wired_rpi_test
+[0.565s] copying wired_rpi_test/wired_rpi.py -> /workspace/ros2_workspace/build/wired_rpi_test/build/lib/wired_rpi_test
+[0.565s] copying wired_rpi_test/__init__.py -> /workspace/ros2_workspace/build/wired_rpi_test/build/lib/wired_rpi_test
+[0.565s] copying wired_rpi_test/wired_laptop.py -> /workspace/ros2_workspace/build/wired_rpi_test/build/lib/wired_rpi_test
+[0.565s] running install
+[0.565s] running install_lib
+[0.567s] creating /workspace/ros2_workspace/install/wired_rpi_test/lib/python3.8/site-packages/wired_rpi_test
+[0.567s] copying /workspace/ros2_workspace/build/wired_rpi_test/build/lib/wired_rpi_test/wired_rpi.py -> /workspace/ros2_workspace/install/wired_rpi_test/lib/python3.8/site-packages/wired_rpi_test
+[0.567s] copying /workspace/ros2_workspace/build/wired_rpi_test/build/lib/wired_rpi_test/__init__.py -> /workspace/ros2_workspace/install/wired_rpi_test/lib/python3.8/site-packages/wired_rpi_test
+[0.568s] copying /workspace/ros2_workspace/build/wired_rpi_test/build/lib/wired_rpi_test/wired_laptop.py -> /workspace/ros2_workspace/install/wired_rpi_test/lib/python3.8/site-packages/wired_rpi_test
+[0.568s] byte-compiling /workspace/ros2_workspace/install/wired_rpi_test/lib/python3.8/site-packages/wired_rpi_test/wired_rpi.py to wired_rpi.cpython-38.pyc
+[0.570s] byte-compiling /workspace/ros2_workspace/install/wired_rpi_test/lib/python3.8/site-packages/wired_rpi_test/__init__.py to __init__.cpython-38.pyc
+[0.570s] byte-compiling /workspace/ros2_workspace/install/wired_rpi_test/lib/python3.8/site-packages/wired_rpi_test/wired_laptop.py to wired_laptop.cpython-38.pyc
+[0.571s] running install_data
+[0.571s] creating /workspace/ros2_workspace/install/wired_rpi_test/share/ament_index
+[0.572s] creating /workspace/ros2_workspace/install/wired_rpi_test/share/ament_index/resource_index
+[0.572s] creating /workspace/ros2_workspace/install/wired_rpi_test/share/ament_index/resource_index/packages
+[0.572s] copying resource/wired_rpi_test -> /workspace/ros2_workspace/install/wired_rpi_test/share/ament_index/resource_index/packages
+[0.572s] copying package.xml -> /workspace/ros2_workspace/install/wired_rpi_test/share/wired_rpi_test
+[0.572s] copying launch/rpi_launch.py -> /workspace/ros2_workspace/install/wired_rpi_test/share/wired_rpi_test
+[0.572s] copying launch/laptop_launch.py -> /workspace/ros2_workspace/install/wired_rpi_test/share/wired_rpi_test
+[0.572s] running install_egg_info
+[0.574s] Copying ../../build/wired_rpi_test/wired_rpi_test.egg-info to /workspace/ros2_workspace/install/wired_rpi_test/lib/python3.8/site-packages/wired_rpi_test-0.0.0-py3.8.egg-info
+[0.575s] running install_scripts
+[0.603s] Installing wired_laptop script to /workspace/ros2_workspace/install/wired_rpi_test/lib/wired_rpi_test
+[0.603s] writing list of installed files to '/workspace/ros2_workspace/build/wired_rpi_test/install.log'
+[0.634s] Invoked command in '/workspace/ros2_workspace/src/wired_rpi_test' returned '0': PYTHONPATH=/workspace/ros2_workspace/install/wired_rpi_test/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/wired_rpi_test build --build-base /workspace/ros2_workspace/build/wired_rpi_test/build install --prefix /workspace/ros2_workspace/install/wired_rpi_test --record /workspace/ros2_workspace/build/wired_rpi_test/install.log --single-version-externally-managed
