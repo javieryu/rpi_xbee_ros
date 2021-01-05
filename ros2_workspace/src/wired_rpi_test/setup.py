@@ -24,6 +24,7 @@ setup(
     entry_points={
         'console_scripts': [
             'wired_laptop = wired_rpi_test.wired_laptop:main',
+            'wired_id_pub = wired_rpi_test.wired_id_pub:main',
         ],
     },
 )

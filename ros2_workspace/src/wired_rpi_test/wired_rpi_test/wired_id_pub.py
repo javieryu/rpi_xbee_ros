@@ -5,10 +5,10 @@ from std_msgs.msg import String
 
 from random import randint
 
-class WiredLaptop(Node):
+class WiredIdPub(Node):
 
     def __init__(self):
-        super().__init__('wired_laptop')
+        super().__init__('wired_id_pub')
         self.id_pub_ = self.create_publisher(String, 'id', 10)
         timer_period = 5.0
         self.timer = self.create_timer(timer_period, self.timer_callback)
@@ -22,7 +22,7 @@ class WiredLaptop(Node):
 def main(args=None):
     rclpy.init(args=args)
 
-    wired_laptop = WiredLaptop()
+    wired_laptop = WiredIdPub()
     rclpy.spin(wired_laptop)
 
     wired_laptop.destroy_node()

@@ -6,7 +6,7 @@ def generate_launch_description():
         Node(
             package='wired_rpi_test',
             namespace='laptop',
-            executable='wired_laptop',
+            executable='wired_id_pub',
             name='wired_test'
         )
     ])
